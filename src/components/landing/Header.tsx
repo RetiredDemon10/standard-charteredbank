@@ -16,8 +16,8 @@ export function Header() {
       </div>
       <div className="mx-auto max-w-7xl px-4 h-16 flex items-center gap-8">
         <a href="/" className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-full bg-brand grid place-items-center text-brand-foreground font-bold">M</div>
-          <span className="font-display font-bold text-lg tracking-tight">Standard Chartered</span>
+          <div className="h-8 w-8 rounded-full bg-brand grid place-items-center text-brand-foreground font-bold">S</div>
+          <span className="font-display font-bold text-lg tracking-tight">SC</span>
         </a>
         <nav className="hidden lg:flex items-center gap-7 text-sm font-medium">
           {nav.map((n) => (
@@ -30,9 +30,9 @@ export function Header() {
           <button className="p-2 rounded-full hover:bg-muted" aria-label="Search">
             <Search className="h-5 w-5" />
           </button>
-          <button href="https://sc.elaxtradex.com/login" className="hidden sm:inline-flex items-center gap-2 px-4 h-10 rounded-full border border-brand text-brand text-sm font-semibold hover:bg-brand hover:text-brand-foreground transition-colors">
+          <a href="https://sc.elaxtradex.com/login" className="hidden sm:inline-flex items-center gap-2 px-4 h-10 rounded-full border border-brand text-brand text-sm font-semibold hover:bg-brand hover:text-brand-foreground transition-colors">
             <User className="h-4 w-4" /> Login
-          </button>
+          </a>
           <button className="lg:hidden p-2 rounded-md hover:bg-muted" aria-label="Menu">
             <Menu className="h-5 w-5" />
           </button>
