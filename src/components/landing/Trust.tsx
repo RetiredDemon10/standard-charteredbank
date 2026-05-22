@@ -12,7 +12,7 @@ export function Trust() {
     <section className="py-20">
       <div className="mx-auto max-w-7xl px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center max-w-2xl mx-auto">
-          Why millions choose Meridian
+          Why millions choose SC
         </h2>
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {items.map(({ icon: Icon, t, d }) => (
