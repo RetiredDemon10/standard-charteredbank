@@ -19,11 +19,11 @@ export function Hero() {
             Open an account in minutes. Earn rewards on every spend. Manage your wealth across borders — all from one trusted app.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href="#" className="inline-flex items-center gap-2 px-6 h-12 rounded-full bg-accent-green text-accent-green-foreground font-semibold hover:opacity-90 transition">
+            <a href="https://sc.elaxtradex.com/login" className="inline-flex items-center gap-2 px-6 h-12 rounded-full bg-accent-green text-accent-green-foreground font-semibold hover:opacity-90 transition">
               Open an account <ArrowRight className="h-4 w-4" />
             </a>
-            <a href="#" className="inline-flex items-center gap-2 px-6 h-12 rounded-full border border-brand-foreground/40 font-semibold hover:bg-brand-foreground/10 transition">
-              Explore products
+            <a href="https://sc.elaxtradex.com/register" className="inline-flex items-center gap-2 px-6 h-12 rounded-full border border-brand-foreground/40 font-semibold hover:bg-brand-foreground/10 transition">
+              Register
             </a>
           </div>
           <div className="mt-10 flex flex-wrap gap-8 text-sm text-brand-foreground/80">
