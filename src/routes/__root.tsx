@@ -72,13 +72,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Meridian Bank — Banking for what's next" },
+      { title: "Standard Chartered — Banking for what's next" },
       { name: "description", content: "Personal banking, credit cards, loans and wealth management. Bank with confidence, anytime, anywhere." },
-      { property: "og:title", content: "Meridian Bank — Banking for what's next" },
-      { property: "og:description", content: "Personal banking, credit cards, loans and wealth management." },
+      { property: "og:title", content: "Standard Chartered — Banking for what's next" },
+      { property: "og:description", content: "Personal banking, credit cards, loans and wealth management. Bank with confidence, anytime, anywhere." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Standard Chartered — Banking for what's next" },
+      { name: "twitter:description", content: "Personal banking, credit cards, loans and wealth management. Bank with confidence, anytime, anywhere." },
     ],
     links: [
       {
